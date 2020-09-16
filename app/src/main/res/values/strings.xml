@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">hackathon</string>
+    <string name="krishi">কৃষি</string>
+    <string name="humb">মানবদেহ</string>
+    <string name="wonders">পৃথিবীর আশ্চর্যজনক বস্তু</string>
+    <string name="gks">সাধারণ বিজ্ঞান</string>
+    <string name="phyedu">শারীরিক শিক্ষা</string>
+    <string name="currency">মুদ্রা</string>
+    <string name="capital">রাজধানী</string>
+    <string name="sports">খেলাধুলা</string>
+    <string name="animals">্প্রাণি</string>
+</resources>

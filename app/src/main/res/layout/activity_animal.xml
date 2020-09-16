@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context="com.example.hackathon.AnimalActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textViewanim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#D81B60" />
+        <RadioGroup
+            android:id="@+id/radioGroupanim"
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" >
+            <RadioButton
+                android:id="@+id/radioanim0"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:textColor="#2ffffC"/>
+
+            <RadioButton
+                android:id="@+id/radioanim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="RadioButton"
+                android:textColor="#3949AB" />
+
+            <RadioButton
+                android:id="@+id/radioanim2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="RadioButton"
+                android:textColor="#00897B" />
+
+            <RadioButton
+                android:id="@+id/radioanim3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="RadioButton"
+                android:textColor="#DD2C00" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/buttonanim"
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="Next"
+            android:textColor="#ffffff"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

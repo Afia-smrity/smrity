@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="selected">#F46797</color>
+    <color name="btn_clr">#1970B5</color>
+    <color name="operator_btn_clr">#05453F</color>
+    <color name="green">#5FCAC0</color>
+
+    <color name="colorFacebook">#3B5999</color>
+    <color name="colorGoogle">#cf4332</color>
+    <color name="colorEmail">#5d5d67</color>
+    <color name="White">#ffffff</color>
+</resources>
